@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io' as Io;
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -22,7 +21,7 @@ Future<void> main() async {
   final Firestore firestore = new Firestore(app: app);
 
   runApp(new MaterialApp(
-      title: 'Livranoo', home: new FirstScreen(firestore: firestore)));
+      title: 'LivranooZ', home: new FirstScreen(firestore: firestore)));
 }
 
 
